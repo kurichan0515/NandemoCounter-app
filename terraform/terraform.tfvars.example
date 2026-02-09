@@ -1,0 +1,23 @@
+# AWS設定
+aws_region              = "ap-northeast-1"
+environment             = "dev"
+app_name                = "nandemo-counter"
+
+# Cognito設定
+cognito_user_pool_name  = "nandemo-counter-users"
+cognito_domain_prefix   = "nandemo-counter"
+
+# Lambda設定
+lambda_runtime          = "nodejs20.x"
+lambda_timeout         = 30
+lambda_memory_size     = 256
+api_gateway_stage_name = "prod"
+enable_xray            = false
+
+# DynamoDB設定（無料枠最適化）
+# 合計で読み取り25ユニット、書き込み25ユニット以下に設定
+dynamodb_read_capacity  = 2
+dynamodb_write_capacity = 2
+
+# SNS設定
+sns_sender_id           = "NANDEMOCOUNTER"

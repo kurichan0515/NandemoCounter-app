@@ -1,0 +1,24 @@
+{
+  "name": "nandemo-counter",
+  "version": "1.0.0",
+  "description": "なんでもカウンターアプリ - Expo/React Native + AWS Serverless",
+  "private": true,
+  "scripts": {
+    "dev": "cd app && npm start",
+    "install:all": "npm install && cd app && npm install",
+    "terraform:init": "cd terraform && terraform init",
+    "terraform:plan": "cd terraform && terraform plan",
+    "terraform:apply": "cd terraform && terraform apply",
+    "terraform:output": "cd terraform && terraform output"
+  },
+  "keywords": [
+    "counter",
+    "nandemo-counter",
+    "expo",
+    "react-native",
+    "aws",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT"
+}

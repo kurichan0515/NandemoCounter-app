@@ -1,0 +1,36 @@
+# Expo
+.expo/
+dist/
+web-build/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.staging
+.env.production
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build
+*.apk
+*.aab
+*.ipa
+
+# Logs
+*.log
+
+# Google Play Service Account
+google-play-service-account.json
